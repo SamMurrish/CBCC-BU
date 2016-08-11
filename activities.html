@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/avin.css" />  
+    
+    <title>Activites</title>
+    
+    </head>
+
+    <body class="avin-background">
+     
+     
+      
+        
+        
+    <ul id="dropdown1" class="dropdown-content">
+  <li><a href="#">Activities</a></li>
+  <li><a href="calendar.html">Calendar</a></li>
+</ul>
+    <ul id="dropdown2" class="dropdown-content">
+  <li><a href="registrum.html">Registration</a></li>
+  <li><a href="regulations.html">Rules &amp; Policies</a></li>
+</ul>
+  
+    <nav style="border-radius:0 0 20px 20px !important;">
+    <div class="nav-wrapper avin-nav hoverable" style="border-radius:0 0 17px 17px !important;">
+      <a href="index.html" class="brand-logo black-text" style="padding-left:15px;">Home</a>
+      
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="black-text" href="tutors.html">Tutors</a></li>
+        <li><a class="dropdown-button black-text" href="#" data-activates="dropdown1">Events<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button black-text" href="#" data-activates="dropdown2">Paperwork<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="black-text" href="volunteers.html">Volunteers</a></li>
+        <li><a class="black-text" href="classes.html">Classes</a></li>
+      </ul>
+       <ul class="side-nav" id="slide-out">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tutors.html">Tutors</a></li>
+        <li class="no-padding">
+      <ul class="collapsible collapsible-accordion">
+        <li>
+          <a class="collapsible-header">Events<i class="mdi-navigation-arrow-drop-down"></i></a>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="activities.html">Activities</a></li>
+              <li><a href="calendar.html">Calendar</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Paperwork<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="registrum.html">Registration</a></li>
+                  <li><a href="regulations.html">Rules &amp; Policies</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+          
+        </li>
+        <li><a href="volunteers.html">Volunteers</a></li>
+        <li><a href="classes.html">Classes</a></li>
+      </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+    </div>
+    </nav>
+    
+    <div class="container">
+        <div class="row">
+        <div class="s12 m12 l12" style="margin-top:25px;">
+            <div class="center">
+            <img src="images/cooplogo.png" width="67%" />
+        </div>
+        </div>
+        <br />
+        <br />
+        
+        <section>
+            
+            <h4>Co-op Activities</h4>
+            <div class="divider red darken-4"></div>
+        </section>
+        <br />
+        <div class="col s12 m7 l7 avin-content card-panel hoverable avin-border" style="padding:15px; border-radius:7px !important;">
+        <br />
+Co-op activities will be updated as information about them is released.
+<br />
+<br />
+If you're a member of our facebook page, you can also check on it for events and activities.
+        </div>
+        <div class="col offset-s1 s4 offset-m1 m4 offset-l1 l4 avin-content card-panel avin-border hoverable hide-on-small-only" style="padding:15px; border-radius:7px !important;">
+            <ul style="list-style:circle;">
+      <li><a href="volunteers.html">Volunteers</a></li>
+      <li><a href="registrum.html">Registration</a></li>
+      <li><a href="regulations.html">Rules and Policies</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="calendar.html">Calendar</a></li> 
+	</ul>
+        </div>
+         <div class="col s12 avin-content card-panel hoverable avin-border hide-on-med-and-up" style="padding:15px; border-radius:7px !important;">
+          <ul style="list-style:circle;">
+       <li><a href="volunteers.html">Volunteers</a></li>
+      <li><a href="registrum.html">Registration</a></li>
+      <li><a href="regulations.html">Rules and Policies</a></li>
+      <li><a href="classes.html">Classes</a></li>
+      <li><a href="calendar.html">Calendar</a></li> 
+	</ul>
+          
+        </div>
+        </div>
+        
+        </div>
+    </div>
+    <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      
+      <script>
+      
+ $(".button-collapse").sideNav();
+ $('.collapsible').collapsible();
+    </script>
+    </body>
+  </html>

@@ -1,0 +1,60 @@
+/* COLOR ONLY */
+
+@font-face {
+    font-family: mavenpro;
+    src: url(maven_pro/MavenPro-Regular.ttf);
+}
+
+body {font-family: mavenpro;}
+
+
+.avin-nav {
+        border:3px solid #000000;
+        border-top:none;
+        background: -webkit-gradient(linear, left top, left bottom, from(#FBF6D9), to(#DE990D));
+        background: -moz-linear-gradient(top,  #FBF6D9,  #DE990D) !important;
+}
+
+.avin-background {
+        background-color:#FBF6D9;
+}
+
+.avin-content {
+        background: -webkit-gradient(linear, left top, left bottom, from(#FBF6D9), to(#DE990D));
+        background: -moz-linear-gradient(top,  #FBF6D9,  #DE990D);
+}
+
+.avin-border {
+        border:2px solid #b71c1c;
+}
+
+.collapsible-body > H5 {
+        padding-left:20px !important;
+}
+
+
+/* TUTORS */
+
+LI.tutor > DIV.collapsible-header {
+        border:2px solid #b71c1c;
+        border-bottom:0px;
+}
+
+LI.tutor > DIV.collapsible-body {
+        border:2px solid #b71c1c;
+        border-top:0px;
+}
+
+LI.tutor-bottom > DIV.collapsible-header {
+        border:2px solid #b71c1c;
+
+}
+LI.tutor-bottom.active > DIV.collapsible-header {
+        border:2px solid #b71c1c;
+        border-bottom:0px;
+}
+
+LI.tutor-bottom > DIV.collapsible-body {
+        border:2px solid #b71c1c;
+        border-top:0px;
+}
