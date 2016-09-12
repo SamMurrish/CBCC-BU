@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maven Pro Regular'), local('MavenProRegular'), url(http://fonts.gstatic.com/s/mavenpro/v7/MG9KbUZFchDs94Tbv9U-pbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+
+/* CSS FOR CALENDER PAGE */
+
+.month {
+    left:24px;
+    position:relative !important;
+}
+
+.day {
+    left:44px;
+    position:relative !important;
+}
+
+
+
+DIV.container {
+    border:3px solid black;
+    margin:3em;
+    border-radius:9px;
+    background-color:#FBF6D9;
+    height:auto !important;
+}
+
+DIV.pagecontent {
+    border:3px solid #9F000F;
+    margin:1em 2em 2em 2em;
+    border-radius:9px;
+    height:auto !important;
+}
+
+DIV.sideboxes {
+    margin:2.1em 16px 8px 16px;
+    height:auto;
+    padding-bottom:15px;
+    border-radius:9px 50px / 50px 9px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FBF6D9), to(#DE990D));
+    background: -moz-linear-gradient(top,  #FBF6D9,  #DE990D);
+    }
+    
+DIV.sideboxes > h2 {
+    padding-left:10px;
+    background:#9F000F;
+    border-bottom: 4px groove rgb(239, 247, 250);
+    color:#f2f2f2;
+    }
+
+DIV.sideboxes > ul > li > a {
+    text-decoration:none;
+}
+    
+DIV.mainMainBox {
+  margin:1.7em 16px 8px 16px;
+  height:auto;
+  padding-bottom:15px;
+  border-radius:9px 50px / 50px 9px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FBF6D9), to(#DE990D));
+  background: -moz-linear-gradient(top,  #FBF6D9,  #DE990D);
+        }
+        
+DIV.mainMainBox > h2 {
+  padding-left:10px;
+  background:#9F000F;
+  border-bottom: 4px groove rgb(239, 247, 250);
+  color:#f2f2f2;
+  }
+
+DIV.mainMainBox > div {
+  padding:10px;
+}
+
+
+UL LI {
+list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+}
+TD.sideboxes { vertical-align:top; border-radius:0px 6px 6px 0px; background-color:#FBF6D9;}
+TD.mainbox {
+    background-color:#FBF6D9;
+    border-radius:6px 0px 0px 6px;
+    vertical-align:text-top;
+    padding-left:9px;
+    padding-top:9px;
+    width:65%;
+    padding-bottom:15px;
+}
+
+A:link,A:visited {text-decoration:underline; color:#9F000F; font-weight:bold; background-color:transparent;}
+A:hover,A:active {text-decoration:underline; color:blue;}
+
+
+A {color:rgb(66, 150, 58); font-weight:bold; text-decoration:none;}
+
+
+        
+ /* CSS FOR DROP DOWN MENU */
+ #primary_nav_wrap
+{
+	margin-top:15px;
+	
+    border:2px solid #DE990D; margin:2em 2em 2em 2em; border-radius:9px;
+  height:32px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FBF6D9), to(#DE990D));
+        background: -moz-linear-gradient(top,  #FBF6D9,  #DE990D) !important;
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"Maven Pro"
+}
+
+#primary_nav_wrap ul a.nav_wrap_a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:20px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"Maven Pro"
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#FBF6D9), to(#DE990D));
+        background: -moz-linear-gradient(top,  #FBF6D9,  #DE990D) !important;
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#FBF6D9;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	border:2px solid #DE990D;
+	border-top:none;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+body {
+    font-family:Maven Pro;
+    background:-webkit-repeating-radial-gradient(center, circle, #f2f2f2, #d2d2d2 15%, #f2f2f2 40%);
+    }

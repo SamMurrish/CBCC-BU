@@ -1,0 +1,93 @@
+
+
+.teacher {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FBF6D9), to(#DE990D));
+  background: -moz-linear-gradient(top,  #FBF6D9,  #DE990D) !important;
+  height:auto;
+  position: relative;
+  border-left:#9F000F 3px solid;
+  border-right:#9F000F 3px solid;
+  padding: 2px 20px 25px 20px;
+  width:600px;
+  margin:30px auto;
+}
+.teacher:before,
+.teacher:after {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 20px;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  width: 607px;
+  left:-3px;
+}
+.teacher:before {
+  border-top-width: 0;
+  border-bottom-color:#9F000F;
+  top: -20px;
+  
+}
+.teacher:after {
+  border-bottom-width: 0;
+  border-top-color:#9F000F;
+  bottom: -20px;
+}
+
+.teacherName {
+  position:relative;
+  top:-2px;
+  width:100%;
+  font-size:20px;
+  font-weight:bold;
+  margin:0 auto;
+  text-align:center;
+}
+
+.teacherName:after {
+  position: absolute;
+  content: " ";
+  width: 500px;
+  bottom: 0;
+  left:50px;
+  border-bottom: 3px solid #9F000F;
+  z-index: 1;
+}
+
+.teacherHeading {
+  margin-bottom:-10px;
+}
+
+.teacherParagraphIndent {
+  text-indent:25px !important;
+}
+
+.teacherHeadingContact {
+  margin-bottom:-10px;
+  margin-top:10px;
+  text-align:center;
+}
+
+.teacherList li a {
+  text-decoration:none;
+}
+
+DIV.teacherMainBox {
+  margin:1.7em 16px 8px 16px;
+  height:auto;
+  border-radius:9px 50px / 50px 9px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FBF6D9), to(#DE990D));
+  background: -moz-linear-gradient(top,  #FBF6D9,  #DE990D);
+        }
+        
+DIV.teacherMainBox > h2 {
+  padding-left:10px;
+  background:#9F000F;
+  border-bottom: 4px groove rgb(239, 247, 250);
+  color:#f2f2f2;
+  }
+
+DIV.teacherMainBox > div {
+  padding:10px;
+}
