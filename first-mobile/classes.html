@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<link href="forums.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<style>
+  #toggle-view {
+	list-style:none;	
+	font-family:arial;
+	font-size:11px;
+	margin:1px auto;
+	padding:0;
+	width:250px;
+}
+
+	#toggle-view li {
+		margin:10px;
+		border-bottom:1px solid #ccc;
+		position:relative;
+		cursor:pointer;
+	}
+	
+	#toggle-view h3 {
+		margin:0;
+		font-size:14px;
+	}
+
+	#toggle-view span {
+		position:absolute;
+		right:5px; top:0;
+		color:#ccc;
+		font-size:13px;
+	}
+	
+	#toggle-view .panel {
+		margin:5px 0;
+		display:none;
+	}	
+
+        .listing li {
+                list-style:none;
+        }
+</style>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+	
+	$('#toggle-view li').click(function () {
+
+		var text = $(this).children('div.panel');
+
+		if (text.is(':hidden')) {
+			text.slideDown('200');
+			$(this).children('span').html('-');		
+		} else {
+			text.slideUp('200');
+			$(this).children('span').html('+');		
+		}
+		
+	});
+
+});
+
+</script>
+ 
+
+<title>Classes</title>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body class="background">
+
+
+  <nav class="navbar navbar-default navit-bg">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Central Brevard Christian Coop</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+         <li><a href="tutors.html">Tutors</a></li>
+         
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Paperwork<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="registrum.html">Registration</a></li>
+            <li><a href="regulations.html">Rules and Policies</a></li>
+          </ul>
+        </li>
+       <li><a href="volunteers.html">Volunteers</a></li>
+       <li class="active"><a href="classes.html">Classes<span class="sr-only">(current)</span></a></li>
+      </ul>
+     
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+<div align="center"> 
+<img src="images/cooplogo.png" width="65%"/>
+</div>
+  
+ <div class="site-body">
+ <div class="container-fluid">
+<div class="h4 text-center">Classes</div>
+ <table cellspacing="0" width="100%" style="margin:0%; height:500px;">
+      <tr><td valign="top">
+     
+   <ul style="list-style:none;">
+    <li style="list-style:none;">
+        <ul id="toggle-view">
+          <li style="list-style:none;">
+		<h3>Class Schedule</h3>
+		<span>+</span>
+		<div class="panel">
+			<p>
+                          <div class="navbar">
+                          <ul class="listing">
+      
+	<li><a href="forms/general/schedule2015-2016.pdf">Class Schedule</a></li>
+	           
+                          </ul>
+                          </div>
+                        </p>
+		</div>
+	</li>
+        </ul>
+      </li>
+      <li style="list-style:none;">
+        <ul id="toggle-view">
+          <li style="list-style:none;">
+		<h3>Science</h3>
+		<span>+</span>
+		<div class="panel">
+			<p>
+                          <ul class="listing">
+        <li><a href="classes/anatomy.pdf">Anatomy</a></li>
+	<li><a href="classes/health.pdf">Health Saftey First-Aid</a></li>
+	<li><a href="classes/marinebiology.pdf">Marine Biology</a></li>
+	<li><a href="classes/biology.pdf">Biology</a></li>
+        <li><a href="classes/2015-2016/physics.pdf">Physics</a></li>
+	
+        <li><a href="classes/2015-2016/generalscience.pdf">General Science</a></li>
+	
+	<li><a href="classes/2015-2016/chemistry.pdf">Chemistry</a></li>
+       
+        <li><a href="classes/2015-2016/physicalscience.pdf">Physical Science</a></li>
+        <li><a href="classes/2015-2016/Zoologyone.pdf">Elementary Science I</a></li>
+                          </ul>
+          
+           </p>
+		</div>
+	</li>
+        </ul>
+      </li>
+      <li style="list-style:none;">
+        <ul id="toggle-view">
+          <li style="list-style:none;">
+		<h3>Languages</h3>
+		<span>+</span>
+		<div class="panel">
+			<p>
+                          <div class="navbar">
+                          <ul class="listing">
+        <li><a href="classes/latin-greek-roots.pdf">Latin/Greek Roots</a></li>
+	<li><a href="classes/latinone.pdf">Latin I</a></li>
+	<li><a href="classes/latintwo.pdf">Latin II</a></li>
+	<li><a href="classes/latinthree.pdf">Latin III</a></li>
+	
+
+	<li><a href="classes/2015-2016/ASL1-4.pdf">Sign Language I - IV</a></li>
+	<li><a href="classes/2014-2015/spanishintro.pdf">Intro to Spanish</a></li>
+	<li><a href="classes/2014-2015/spanishone.pdf">Spanish I</a></li>
+        <li><a href="classes/2015-2016/spanishtwo.pdf">Spanish II</a></li>
+	           
+                          </ul>
+                          </div>
+                        </p>
+		</div>
+	</li>
+        </ul>
+      </li>
+      <li style="list-style:none;">
+        <ul id="toggle-view">
+          <li style="list-style:none;">
+		<h3>History</h3>
+		<span>+</span>
+		<div class="panel">
+			<p>
+                          <div class="navbar">
+                          <ul class="listing">
+        <li><a href="classes/americangov-USconstitution.pdf">American Goverment<br>US Constitution</a></li>
+	<li><a href="classes/economics.pdf">Economics</a></li>
+	<li><a href="classes/worldview.pdf">World View</a></li>
+	<li><a href="classes/ushistory.pdf">U.S. History</a></li>
+	<li><a href="classes/worldhistory.pdf">World History</a></li>
+	    
+                          </ul>
+                          </div>
+                        </p>
+		</div>
+	</li>
+        </ul>
+      </li>
+        <li style="list-style:none;">
+        <ul id="toggle-view">
+          <li style="list-style:none;">
+		<h3>English</h3>
+		<span>+</span>
+		<div class="panel">
+			<p>
+                          <ul class="listing">
+     
+	<li><a href="classes/2015-2016/english-class-credits.pdf">English Credits Informational Sheet</a></li>
+        <li><a href="classes/2015-2016/businessenglish.pdf">Business of English</a></li>
+       
+  
+	<li><a href="classes/2015-2016/intermediate-literature.pdf">Intermediate Literature</a></li>
+       
+
+        <li><a href="classes/2015-2016/advancedliterature.pdf">Advanced Literature</a></li>
+        <li><a href="classes/2015-2016/advancedlithonorsoption.pdf">Advanced Literature with Honors Option</a></li>
+	<li><a href="classes/2015-2016/writing-through-time.pdf">Writing Through Time</a></li>
+       
+        <li><a href="classes/2015-2016/satverbalprep.pdf">SAT Verbal Prep</a></li>
+     
+                          </ul>
+                        </p>
+		</div>
+	</li>
+        </ul>
+      </li>
+        <li style="list-style:none;">
+        <ul id="toggle-view">
+          <li style="list-style:none;">
+		<h3>Electives</h3>
+		<span>+</span>
+		<div class="panel">
+			<p>
+                          <ul class="listing">
+        <li><a href="classes/2015-2016/crime-scene.pdf">Crime Scene Investigation</a></li>
+        <li><a href="classes/2015-2016/personalfitness.pdf">Personal Fitness</a></li>
+        <li><a href="classes/2015-2016/HOPE.pdf">HOPE</a></li>
+        <li><a href="classes/2015-2016/yearbookproduction.pdf">Year Book Production</a></li>
+        <li><a href="classes/2015-2016/stretching.pdf">Stretching</a></li>
+        <li><a href="classes/2015-2016/wolrd-geography.pdf">World Geography</a></li>
+        <li><a href="classes/2015-2016/artbeginning.pdf">Elementary Art</a></li>
+        <li><a href="classes/2014-2015/art-drawing-1.pdf">Art: Drawing 1</a></li>
+        <li><a href="classes/2014-2015/art-painting-1.pdf">Art: Painting 1</a></li>
+        <li><a href="classes/2015-2016/architecture-art.pdf">Art: Architecture</a></li>
+        <li><a href="classes/2014-2015/art-2dimensional-studio.pdf">Art: 2 Dimensional Studio / Mixed Media</a></li>
+	
+        <li><a href="classes/2015-2016/speech-debate.pdf">Speech &amp; Debate</a></li>
+    
+        <li><a href="classes/2015-2016/personalfinance.pdf">Personal Finance</a></li>
+        <li><a href="classes/2015-2016/beginningguitar.pdf">Beginning Guitar</a></li>
+   
+                          </ul>
+                        </p>
+		</div>
+	</li>
+        </ul>
+      </li>
+        <li style="list-style:none;">
+        <ul id="toggle-view">
+          <li style="list-style:none;">
+		<h3>Math</h3>
+		<span>+</span>
+		<div class="panel">
+			<p>
+                          <ul class="listing">
+         <li><a href="classes/satmathprep.pdf">SAT Math Prep</a></li>
+	 <li><a href="classes/tutoringmath.pdf">Group Math Tutoring</a></li>
+         <li><a href="classes/2015-2016/saxon7-6.pdf">Saxon 7/6</a></li>
+         <li><a href="classes/2015-2016/saxon8-7.pdf">Saxon 8/7</a></li>
+         <li><a href="classes/2015-2016/algebraone.pdf">Algebra I</a></li>
+         <li><a href="classes/2015-2016/algebratwo.pdf">Algebra II</a></li>
+    
+                          </ul>
+                        </p>
+		</div>
+	</li>
+        </ul>
+      </li>
+       
+       
+      
+        
+    </ul>
+</div>
+
+       
+  
+
+<ul class="nav nav-tabs nav-justified" role="tablist" width="98%">
+    <li role="presentation" class="active"><a href="#start" aria-controls="start" role="tab" data-toggle="tab">Start</a></li>
+    <li role="presentation"><a href="#akouka" aria-controls="akouka" role="tab" data-toggle="tab">Akouka</a></li>
+    <li role="presentation"><a href="#capizzi" aria-controls="capizzia" role="tab" data-toggle="tab">Capizzi</a></li>
+    <li role="presentation"><a href="#elliott" aria-controls="elliott" role="tab" data-toggle="tab">Elliott</a></li>
+    <li role="presentation"><a href="#ferraro" aria-controls="ferraro" role="tab" data-toggle="tab">Ferraro</a></li>
+    <li role="presentation"><a href="#grant" aria-controls="grant" role="tab" data-toggle="tab">Grant</a></li>
+    <li role="presentation"><a href="#henn" aria-controls="henn" role="tab" data-toggle="tab">Henn</a></li>
+    <li role="presentation"><a href="#houlberg" aria-controls="houlberg" role="tab" data-toggle="tab">Houlberg</a></li>
+    <li role="presentation"><a href="#liffrig" aria-controls="liffrig" role="tab" data-toggle="tab">Liffrig</a></li>
+    <li role="presentation"><a href="#mcfarland" aria-controls="mcfarland" role="tab" data-toggle="tab">McFarland</a></li>
+    <li role="presentation"><a href="#meggs" aria-controls="meggs" role="tab" data-toggle="tab">Meggs</a></li>
+    <li role="presentation"><a href="#ravel" aria-controls="ravel" role="tab" data-toggle="tab">Ravel</a></li>
+    <li role="presentation"><a href="#ross" aria-controls="ross" role="tab" data-toggle="tab">Ross</a></li>
+    </ul>
+
+<div class="tab-content">
+
+<div role="tabpanel" class="tab-pane active" id="start">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Start</div>
+  <p class="courseParagraphIndent">Classes are listed on the above, click the down arrow over the desired type of course, then search through theclasses that come up to find what you like. </p>
+</div>
+</div></div>
+
+    <div role="tabpanel" class="tab-pane" id="akouka">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Akouka</div>
+<p>
+    <h4 class="teacherHeading">Trish Akouka:</h4>
+    <ul>
+        <li>Electives</li>
+        <li class="subLI">Personal Fitness</li>
+	<li class="subLI">HOPE</li>
+	<li class="subLI">World Geography</li>
+	<li class="subLI">Stretching</li>
+	
+    </ul>
+</p>
+</div>
+</div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="capizzi">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Capizzi</div>
+<p>
+    <h4 class="teacherHeading">Pastor Keith Capizzi:</h4>
+    <ul>
+        <li>Electives</li>
+        <li class="subLI">Beginning Guitar</li>
+    </ul>
+</p>
+</div>
+</div>
+    </div>
+    
+       <div role="tabpanel" class="tab-pane" id="elliott">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Elliott</div>
+      <p>
+        <h4 class="teacherHeading">Catherine Elliott:</h4>
+     <ul>
+      <li>English:</li>
+   
+      <li class="subLI">Intermediate Literature</li>
+
+      <li class="subLI">Writing Through Time</li>
+      <li class="subLI">Advanced Literature and Honors</li>
+      <li class="subLI">Business English</li>
+      <li>Electives:</li>
+      <li class="subLI">Speech and Debate</li>
+     </ul>
+      </p>
+    </div>
+</div>
+</div>
+    <div role="tabpanel" class="tab-pane" id="ferraro">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Ferraro</div>
+      <p>
+        <h4 class="teacherHeading">Pamela Ferraro:</h4>
+     <ul>
+      <li>Languages:</li>
+
+      <li class="subLI">Sign Language</li>
+     </ul>
+      </p>
+    </div>
+</div>
+    </div>
+         <div role="tabpanel" class="tab-pane" id="grant">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Grant</div>
+      <p>
+        <h4 class="teacherHeading">Abigail Grant:</h4>
+     <ul>
+      <li>Math:</li>
+
+      <li class="subLI">Saxon Math 7/6</li>
+      <li class="subLI">Saxon Math 8/7</li>
+      <li class="subLI">Algebra I</li>
+      <li class="subLI">Algebra II</li>
+      
+     </ul>
+      </p>
+    </div>
+</div></div>
+              <div role="tabpanel" class="tab-pane" id="henn">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Henn</div>
+      <p>
+        <h4 class="teacherHeading">Dan Henn:</h4>
+     <ul>
+      <li>Electives:</li>
+      <li class="subLI">Personal Finance</li>
+        </ul>
+      </p>
+    </div>
+</div></div>
+       <div role="tabpanel" class="tab-pane" id="houlberg">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Houlberg</div>
+	  <p>
+     <h4 class="teacherHeading">Alicia Houlberg:</h4>
+      <ul>
+      <li>Science:</li>
+      <li class="subLI">General Science</li>
+      <li class="subLI">Chemistry</li>
+      <li class="subLI">Physics</li>
+      <li>Electives:</li>
+      <li class="subLI">Year Book Production</li>
+      <li class="subLI">Crime Scene Investigation</li>
+     </ul>
+          </p> </div>   </div></div>    
+            <div role="tabpanel" class="tab-pane" id="liffrig">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Liffrig</div>
+     <p><h4 class="teacherHeading">Lisa Liffrig:</h4>   
+      <ul>
+      <li>Science:</li>
+      <li class="subLI">Physical Science</li>
+      <li>History:</li>
+      <li class="subLI">Economics</li>
+      <li class="subLI">World View</li>
+      <li class="subLI">U.S. History</li>
+      <li class="subLI">World History</li>
+     </ul>
+     </p>
+     </div></div></div>
+              <div role="tabpanel" class="tab-pane" id="mcfarland">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">McFarland</div>
+     <p><h4 class="teacherHeading">Helen McFarland:</h4>   
+      <ul>
+      <li>Languages:</li>
+      <li class="subLI">Latin & Greek Roots</li>
+      <li class="subLI">Latin I</li>
+      <li class="subLI">Latin II</li>
+      <li class="subLI">Latin III</li>
+      <li>English:</li>
+      <li class="subLI">SAT Verbal Prep</li>
+     </ul>
+     </p>
+     </div></div></div>
+         
+               <div role="tabpanel" class="tab-pane" id="meggs">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Meggs</div>
+     <p><h4 class="teacherHeading">Beth Meggs:</h4>   
+      <ul>
+      <li>Electives:</li>
+      <li class="subLI">Art: Drawing</li>
+      <li class="subLI">Art: Painting</li>
+      <li class="subLI">Art: 2 Dimensional Studio / Mixed Media</li>
+      <li class="subLI">Art: Beginning</li>
+      <li class="subLI">Art: Architecture</li>
+     </ul>
+     </p>
+     </div>
+</div>
+               </div>
+            <div role="tabpanel" class="tab-pane" id="ravel">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Ravel</div>
+     <p><h4 class="teacherHeading">Jennifer Ravel:</h4>   
+      <ul>
+      <li>Langauges:</li>
+      <li class="subLI">Intro to Spanish</li>
+      <li class="subLI">Spanish I</li>
+      <li class="subLI">Spanish II</li>
+     </ul>
+     </p>
+     </div>
+</div></div>
+          <div role="tabpanel" class="tab-pane" id="ross">
+<div class="site-body">
+<div class="container-fluid">
+<div class="h4 text-center">Ross</div>
+	  <p>
+     <h4 class="teacherHeading">Tyler Ross:</h4>
+     <ul>
+      <li>Science:</li>
+      <li class="subLI">Anatomy</li>
+      <li class="subLI">Health, Saftey, First-Aid</li>
+      <li class="subLI">Marine Biology</li>
+      <li class="subLI">Biology</li>
+      <li>History:</li>
+      <li class="subLI">American Government US Constitution</li>
+     </ul>
+          </p>
+     </div>
+</div>
+          </div>
+     
+     
+     
+       </div>
+      
+      
+      </div>
+ 
+</body>
+</html>

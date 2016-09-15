@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maven Pro Regular'), local('MavenProRegular'), url(http://fonts.gstatic.com/s/mavenpro/v7/MG9KbUZFchDs94Tbv9U-pbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+body {
+    font-family:Maven Pro;
+    background-color:#FBF6D9 !important;
+    }
+
+
+.log-panel {width:40%; margin-top:3%; margin-left:auto; margin-right:auto;}
+.log-form {margin-top:5%; margin-left:auto !important; margin-right:auto !important;}
+.site-body {margin:2% 3%;}
+.thread-name {font-size:17pt;}
+
+DIV.site-body {
+    border:3px solid black;
+    margin:2em;
+    border-radius:9px;
+    background-color:#FBF6D9;
+    height:auto !important;
+}
+
+
+/* Tables for the threads */
+.box {border: 1px solid black;}
+.thread {width:100%;}
+
+/*classes */
+.subLI {
+  margin-left:20px;
+  }
+  
+  .teacherHeading {
+  margin-bottom:-10px;
+}
+
+/* CALENDAR */
+.month {
+    left:24px;
+    position:relative !important;
+}
+
+.day {
+    left:44px;
+    position:relative !important;
+}
+
+/* Teachers */
+.offset-abbie {
+  margin-left:25px;
+}
+
+/* NAV BAR */
+.navit-bg {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FBF6D9), to(#DE990D));
+    background: -moz-linear-gradient(top,  #FBF6D9,  #DE990D) !important;
+    }
+.navbar-brand {color:#000000 !important;}
+.navbar-default .navbar-nav > li > a {color:#000000 !important;}
+.navbar-default .navbar-toggle .icon-bar {background-color:#FFFFFF !important;}
+.navbar-default .navbar-nav > .active > a {background-color:#FBF6D9 !important;}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {color:#000000 !important;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {background-color:#FBF6D9 !important;}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {color:#000000 !important;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #FBF6D9 !important;
+    color:#000000 !important;
+}
+
+/* INDEX PAGE STUFF */
+.page-heading
